@@ -1,0 +1,2 @@
+ali = "merhaba"
+print(ali)
