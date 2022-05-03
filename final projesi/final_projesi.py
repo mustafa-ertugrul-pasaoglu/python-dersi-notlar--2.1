@@ -4,7 +4,6 @@ from tkinter import *
 from tkinter.font import BOLD
 from turtle import left
 master = Tk()
-
 canvas = Canvas(master , height=450 , width=750)
 canvas.pack()
 
@@ -37,6 +36,9 @@ metin_alanı.pack()
 
 karşılama_metni = "şifrenizi buraya giriniz..."
 metin_alanı.insert(END , karşılama_metni , "style")
+
+giriş_butonu = Button(frame_alt, text="Giriş", command=master.destroy)
+giriş_butonu.pack(anchor=S)
 
 master.mainloop()
 
