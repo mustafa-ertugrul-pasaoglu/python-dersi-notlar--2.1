@@ -32,6 +32,7 @@ sifre_yazısı.pack(padx=10 , pady=50 , side=TOP)
 metin_alanı = Text(frame_alt , height=2 , width=30)
 metin_alanı.tag_configure("style", foreground ="#eab676", font=("Verdana" , "12" , "bold" ))
 metin_alanı.pack()
+print("dünya")
 
 
 karşılama_metni = "şifrenizi buraya giriniz..."
