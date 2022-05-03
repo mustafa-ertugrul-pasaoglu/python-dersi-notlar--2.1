@@ -1,6 +1,7 @@
 
 from cProfile import label
 from tkinter import *
+from tkinter.font import BOLD
 from turtle import left
 master = Tk()
 
@@ -29,7 +30,12 @@ giris_etiketi.pack(padx=10 , pady=10 , side=TOP)
 sifre_yazısı = Label(frame_alt, bg="#eab676", text ="Lütfen şifrenizi giriniz" , font="Verdana 12 bold")
 sifre_yazısı.pack(padx=10 , pady=50 , side=TOP)
 
+metin_alanı = Text(frame_alt , height=2 , width=30)
+metin_alanı.tag_configure("style", foreground ="#eab676", font=("Verdana" , "12" , "bold" ))
+metin_alanı.pack()
 
+karşılama_metni = "şifrenizi buraya giriniz..."
+metin_alanı.insert(END , karşılama_metni , "style")
 
 master.mainloop()
 
