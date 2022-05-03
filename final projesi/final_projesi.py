@@ -41,5 +41,6 @@ giriş_butonu = Button(frame_alt, text="Giriş", command=master.destroy)
 giriş_butonu.pack(anchor=S)
 
 master.mainloop()
+print("yazdım oldumu")
 
 
