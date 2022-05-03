@@ -16,6 +16,16 @@ frame_alt.place(relx=0.1 , rely=0.21 , relheight=0.56 , relwidth=0.75)
 giris_etiketi = Label(frame_ust, bg ="#eab676", text ="Giriş yapmak için şifrenizi aşağı giriniz", font="Verdana 12 bold")
 giris_etiketi.pack(padx=5 , pady=5 , side=LEFT)
 
+giris_etiketi_opsiyon = StringVar(frame_ust)
+giris_etiketi_opsiyon.set = ("\t")
+
+#giris_etiketi_opsiyon_açılır_menü = OptionMenu(
+ #   frame_ust,
+  #  giris_etiketi_opsiyon,
+   # "E posta  ",
+    #"Banka şifresi ",
+    #"Hesap numarası")
+#giris_etiketi_opsiyon_açılır_menü.pack(padx=10 , pady=10 , side=RIGHT)
 
 
 
