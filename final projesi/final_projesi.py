@@ -34,8 +34,10 @@ metin_alanı = Text(frame_alt , height=2 , width=30)
 metin_alanı.tag_configure("style", foreground ="#eab676", font=("Verdana" , "12" , "bold" ))
 metin_alanı.pack()
 
+
 karşılama_metni = "şifrenizi buraya giriniz..."
 metin_alanı.insert(END , karşılama_metni , "style")
 
 master.mainloop()
+print("merhaba")
 
