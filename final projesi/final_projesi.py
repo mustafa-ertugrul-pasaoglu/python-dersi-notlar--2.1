@@ -40,5 +40,6 @@ metin_alanı.insert(END , karşılama_metni , "style")
 
 master.mainloop()
 print("merhaba")
-print("yarın bu işi iyice anlayıp yapalım")
+print("dünya")
+
 
